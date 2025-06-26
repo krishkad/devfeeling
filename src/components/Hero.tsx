@@ -13,14 +13,14 @@ const Hero = () => {
   return (
     <section className="pt-24 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center animate-fade-in">
+        <div className="text-center animate-fade-in max-md:pt-12">
           {/* Main Headlines */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             What If Your{" "}
             <span className="bg-gradient-to-r from-brand-blue-600 to-brand-accent-500 bg-clip-text text-transparent">
               Startup Grew
             </span>
-            <br />
+            <br className="max-md:hidden" />{" "}
             as Fast as Your Vision?
           </h1>
 
