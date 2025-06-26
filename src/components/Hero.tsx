@@ -7,7 +7,7 @@ const Hero = () => {
     "InnovateCorp",
     "DataFlow",
     "CloudSync",
-    "NextGen"
+    "NextGen",
   ];
 
   return (
@@ -16,31 +16,31 @@ const Hero = () => {
         <div className="text-center animate-fade-in">
           {/* Main Headlines */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            We Build{" "}
+            What If Your{" "}
             <span className="bg-gradient-to-r from-brand-blue-600 to-brand-accent-500 bg-clip-text text-transparent">
-              Scalable, Reliable
+              Startup Grew
             </span>
             <br />
-            Software for Startups
+            as Fast as Your Vision?
           </h1>
-          
+
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform your vision into powerful software solutions. We partner with startups and growing businesses 
-            to create exceptional web applications, mobile apps, and SaaS platforms that drive growth.
+            We build future-ready web, mobile, and SaaS platforms that grow with
+            your business—seamlessly and securely.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-brand-accent-500 hover:bg-brand-accent-600 text-white px-8 py-3 text-lg font-semibold group"
             >
               Book a Free Call
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="border-brand-blue-500 text-brand-blue-600 hover:bg-brand-blue-50 px-8 py-3 text-lg font-semibold"
             >
               View Our Work
@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="relative max-w-6xl mx-auto">
               {/* Background gradient with blue tones */}
               <div className="absolute inset-0 bg-gradient-to-br from-brand-blue-50 via-brand-accent-50 to-brand-blue-100 rounded-3xl transform rotate-1"></div>
-              
+
               {/* Main showcase container */}
               <div className="relative bg-white rounded-3xl p-8 shadow-2xl overflow-hidden">
                 {/* Central dashboard mockup */}
@@ -70,7 +70,7 @@ const Hero = () => {
                       </div>
                       <div className="w-6"></div>
                     </div>
-                    
+
                     {/* Dashboard interface */}
                     <div className="bg-gradient-to-br from-brand-blue-50 to-white rounded-xl p-6">
                       {/* Header */}
@@ -84,7 +84,7 @@ const Hero = () => {
                         </div>
                         <div className="w-8 h-8 bg-brand-blue-100 rounded-full"></div>
                       </div>
-                      
+
                       {/* Stats cards */}
                       <div className="grid grid-cols-3 gap-4 mb-6">
                         <div className="bg-white rounded-lg p-4 shadow-sm">
@@ -100,7 +100,7 @@ const Hero = () => {
                           <div className="w-1/2 h-1 bg-gray-200 rounded"></div>
                         </div>
                       </div>
-                      
+
                       {/* Chart area */}
                       <div className="bg-white rounded-lg p-4 shadow-sm">
                         <div className="flex items-end space-x-2 h-16">
@@ -181,7 +181,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Animated background elements */}
             <div className="absolute -top-4 -left-4 w-12 h-12 bg-brand-accent-500 rounded-full opacity-80 animate-pulse"></div>
             <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-brand-blue-500 rounded-full opacity-60 animate-pulse delay-300"></div>
@@ -190,10 +190,15 @@ const Hero = () => {
 
           {/* Client Logos */}
           <div className="text-center">
-            <p className="text-sm text-gray-500 mb-6 font-medium">Trusted by innovative companies</p>
+            <p className="text-sm text-gray-500 mb-6 font-medium">
+              Trusted by innovative companies
+            </p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
               {clientLogos.map((logo, index) => (
-                <div key={index} className="text-lg font-semibold text-gray-400 hover:text-gray-600 transition-colors">
+                <div
+                  key={index}
+                  className="text-lg font-semibold text-gray-400 hover:text-gray-600 transition-colors"
+                >
                   {logo}
                 </div>
               ))}
